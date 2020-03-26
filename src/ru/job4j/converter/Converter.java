@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.converter;
+package ru.job4j.converter;
 
 public class Converter {
     public static int rubleToEuro(int value) {
@@ -7,7 +7,7 @@ public class Converter {
     }
 
     public static int rubleToDollar(int value) {
-        int rs2 =value / 60;
+        int rs2 = value / 60;
         return rs2;
     }
 

@@ -10,7 +10,7 @@ public class StringEq {
 
     public static void main(String[] args) {
         boolean userHasAccess = StringEq.check("Jenya");
-        System.out.println(userHasAccess);
+        System.out.println("userHasAccess");
     }
 }
 

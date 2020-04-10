@@ -18,5 +18,6 @@ public class FactorialTest {
         Factorial fact = new Factorial();
         assertThat(fact.calc(0), is(1));
     }
+
 }
 

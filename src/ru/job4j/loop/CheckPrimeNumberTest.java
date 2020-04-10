@@ -9,13 +9,13 @@ import static org.junit.Assert.*;
         @Test
         public void when5() {
             boolean rsl = CheckPrimeNumber.check(5);
-            assertThat(rsl, is(false));
+            assertThat(rsl, is(true));
         }
 
         @Test
         public void when4() {
             boolean rsl = CheckPrimeNumber.check(4);
-            assertThat(rsl, is(true));
+            assertThat(rsl, is(false));
         }
 
         @Test

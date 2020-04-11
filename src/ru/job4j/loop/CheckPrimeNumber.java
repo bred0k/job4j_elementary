@@ -8,7 +8,6 @@ package ru.job4j.loop;
                     prime = false;
                     break;
                 }
-                prime = true;
             }
             return prime;
         }

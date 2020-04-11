@@ -21,6 +21,12 @@ import static org.junit.Assert.*;
         @Test
         public void when1() {
             boolean rsl = CheckPrimeNumber.check(1);
+            assertThat(rsl, is(false));
+        }
+
+        @Test
+        public void when41() {
+            boolean rsl = CheckPrimeNumber.check(41);
             assertThat(rsl, is(true));
         }
     }

@@ -8,6 +8,7 @@ public class BarleyBreak {
             for (int j = 0; j < table.length; j++) {
                 table[i][j] = temp++;
             }
+
         }
     }
 }

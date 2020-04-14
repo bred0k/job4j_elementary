@@ -12,6 +12,7 @@ public class DefragmentTest {
         String[] compressed = Defragment.compress(input);
         String[] expected = {"I", null};
         assertThat(compressed, is(expected));
+
     }
 
     @Test

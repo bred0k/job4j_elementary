@@ -13,7 +13,7 @@ public class controlquestion {
     }
 
     public static int comp(int[] array1, int[] array2) {   //поиск общих значений индексов
-        int result1 = 1;
+        int result1 = 0;
         for (int index = 0; index < array2.length; index++) {
             if (array1[index] == array2[index]) {
                 result1 = index;

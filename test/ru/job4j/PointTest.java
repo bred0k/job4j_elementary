@@ -9,6 +9,7 @@ import static org.hamcrest.core.Is.is;
 
 public class PointTest {
 
+
     @Test
     public void distance() {
         Point a = new Point (5,4,9);

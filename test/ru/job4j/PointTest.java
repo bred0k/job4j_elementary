@@ -23,7 +23,7 @@ public class PointTest {
         Point a = new Point (5,4,9);
         Point b = new Point (2,8,5);
         double result = a.distance3d(a,b);
-        assertEquals(result, 6.4031242374328485, 0.01);
+        assertEquals(result, 6.40, 0.01);
 
     }
 }

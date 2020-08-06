@@ -23,8 +23,9 @@ public class PointTest {
     public void distance3d() {
         Point a = new Point (5,4,9);
         Point b = new Point (2,8,5);
-        double result = a.distance3d(a,b);
-        assertEquals(result, 6.40, 0.01);
+        Point c = new Point (5,8,5);
+        double result = a.distance3d(b);
+        assertEquals(result, 4.47, 0.01);
 
     }
 }

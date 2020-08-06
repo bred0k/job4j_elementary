@@ -20,9 +20,18 @@ public class MaxTest {
     }
     @Test
     public void whenMax1To1Then2() {
-        int result = Max.max(5, 5);
-        assertThat(result, is(5));
+        int result = Max.max(6, 6);
+        assertThat(result, is(6));
     }
-
+    @Test
+    public void whenMax3To1Then3() {
+        int result = Max.max(6, 5 ,8);
+        assertThat(result, is(8));
+    }
+    @Test
+    public void whenMax4To1Then4() {
+        int result = Max.max(6, 5 ,8 ,15);
+        assertThat(result, is(8));
+    }
 
 }
